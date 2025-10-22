@@ -21,14 +21,12 @@ NO_VEGETARIANOS = ["Peperoni", "Jamón", "Salmón"]
 ingrediente_extra = ""
 pizza_elegida = ""
 
-# --- 1. Entrada de datos y elección de tipo de pizza ---
 
 print("--- Pizzería Il Capo ---")
 
 # Pedir tipo de pizza y convertir a minúsculas para facilitar la comparación
 tipo_pizza = input("¿Quiere una pizza Vegetariana (V) o No Vegetariana (N)? ").lower()
 
-# --- 2. Lógica de Menú y Selección de Ingrediente ---
 
 if tipo_pizza == 'v':
     pizza_elegida = "Vegetariana"
@@ -73,8 +71,6 @@ else:
     # Manejo de entrada no válida para el tipo de pizza
     print("\nError: Tipo de pizza no reconocido. El programa finaliza.")
     exit()
-
-# --- 3. Construcción y Muestra del Resultado Final ---
 
 # Determinar la lista final de ingredientes
 if ingrediente_extra:
