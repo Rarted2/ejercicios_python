@@ -17,5 +17,3 @@ for asignatura in asignaturas:
 print("\nAsignaturas ordenadas alfabéticamente en una línea:")
 print(", ".join(asignaturas_ordenadas))
 
-
-#pruebas commit
